@@ -45,6 +45,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- PDFBox for PDF Parsing -->
+    <dependency>
+				<groupId>org.apache.pdfbox</groupId>
+				<artifactId>pdfbox</artifactId>
+				<version>2.0.28</version> <!-- Use the latest stable version -->
+		</dependency>
 	</dependencies>
 	<!-- <dependencyManagement>
 		<dependencies>
